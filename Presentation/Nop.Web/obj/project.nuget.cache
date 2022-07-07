@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "hVSsqUbImOYlpqHejGyS2jeGU3yN/+Ziu088hX84dVh094PSDM3GL9xOMtvsM4MtUJbOqoSWRXqyoPOsvtIxfQ==",
+  "success": false,
+  "projectFilePath": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Presentation\\Nop.Web\\Nop.Web.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Libraries\\Nop.Services\\Nop.Services.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

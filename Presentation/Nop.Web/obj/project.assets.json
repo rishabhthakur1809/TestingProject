@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Nop.Core/4.5.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Nop.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nop.Core.dll": {}
+        }
+      },
+      "Nop.Data/4.5.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Nop.Core": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/Nop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nop.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nop.Core/4.5.0": {
+      "type": "project",
+      "path": "../../Libraries/Nop.Core/Nop.Core.csproj",
+      "msbuildProject": "../../Libraries/Nop.Core/Nop.Core.csproj"
+    },
+    "Nop.Data/4.5.0": {
+      "type": "project",
+      "path": "../../Libraries/Nop.Data/Nop.Data.csproj",
+      "msbuildProject": "../../Libraries/Nop.Data/Nop.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+      "Nop.Core >= 4.5.0",
+      "Nop.Data >= 4.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Rishabh.Thakur\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "4.5.0",
+    "restore": {
+      "projectUniqueName": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Presentation\\Nop.Web\\Nop.Web.csproj",
+      "projectName": "Nop.Web",
+      "projectPath": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Presentation\\Nop.Web\\Nop.Web.csproj",
+      "packagesPath": "C:\\Users\\Rishabh.Thakur\\.nuget\\packages\\",
+      "outputPath": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Presentation\\Nop.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Rishabh.Thakur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+              "projectPath": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Libraries\\Nop.Core\\Nop.Core.csproj"
+            },
+            "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+              "projectPath": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Libraries\\Nop.Data\\Nop.Data.csproj"
+            },
+            "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+              "projectPath": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Libraries\\Nop.Services\\Nop.Services.csproj"
+            },
+            "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+              "projectPath": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Libraries\\Nop.Services\\Nop.Services.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Nopcommerce source Code\\nopCommerce_Source_code\\src\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
